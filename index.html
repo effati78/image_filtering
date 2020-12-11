@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="top">
+        <section class="top_image">
+            <img src="image/2.jpg" alt="img" id="img" />
+        </section>
+    </section>
+
+    <div class="left">
+        <div class="item">
+            <p>grayscale</p>
+            <input type="range" name="1" value="0" id="grayscale" onchange="filter()">
+            <input type="submit" value="Reset" data-value="0" data-name="grayscale" onclick="CLICK(this)">
+        </div>
+        <div class="item">
+            <p>blur</p>
+            <input type="range" name="1" value="0" id="blur" onchange="filter()">
+            <input type="submit" value="Reset" data-value="0" data-name="blur" onclick="CLICK(this)">
+        </div>
+        <div class="item">
+            <p>brightness</p>
+            <input type="range" name="1" value="50" id="brightness" onchange="filter()">
+            <input type="submit" value="Reset" data-value="50" data-name="brightness" onclick="CLICK(this)">
+        </div>
+        <div class="item">
+            <p>contrast</p>
+            <input type="range" name="1" value="50" id="contrast" onchange="filter()">
+            <input type="submit" value="Reset" data-value="50" data-name="contrast" onclick="CLICK(this)">
+        </div>
+        <div class="item">
+            <p>hue-rotate</p>
+            <input type="range" name="1" value="0" id="hue_rotate" onchange="filter()">
+            <input type="submit" value="Reset" data-value="0" data-name="hue_rotate" onclick="CLICK(this)">
+        </div>
+    </div>
+    <div class="right">
+        <div class="item">
+            <p>invert</p>
+            <input type="range" name="1" value="0" id="invert" onchange="filter()">
+            <input type="submit" value="Reset" data-value="0" data-name="invert" onclick="CLICK(this)">
+        </div>
+        <div class="item">
+            <p>opacity</p>
+            <input type="range" name="1" value="100" id="opacity" onchange="filter()">
+            <input type="submit" value="Reset" data-value="100" data-name="opacity" onclick="CLICK(this)">
+        </div>
+        <div class="item">
+            <p>saturate</p>
+            <input type="range" name="1" value="10" id="saturate" onchange="filter()">
+            <input type="submit" value="Reset" data-value="10" data-name="saturate" onclick="CLICK(this)">
+        </div>
+        <div class="item">
+            <p>sepia</p>
+            <input type="range" name="1" value="0" id="sepia" onchange="filter()">
+            <input type="submit" value="Reset" data-value="0" data-name="sepia" onclick="CLICK(this)">
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
